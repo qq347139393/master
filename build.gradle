@@ -1,0 +1,27 @@
+plugins {
+    id 'java-library'
+}
+
+/**为所有项目(包括根项目和所有子项目)设置group和version属性*/
+allprojects {
+    group = 'org.example'
+    version = '0.1'
+    repositories {
+        mavenCentral()
+    }
+
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+subprojects {
+
+}

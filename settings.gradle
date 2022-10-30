@@ -1,0 +1,6 @@
+rootProject.name = 'master'
+include 'staff_view'
+include 'lim_common'
+include 'system_view'
+include 'lim_interface'
+

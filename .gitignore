@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/lim_common/build/
+/lim_common/build/classes/java/main/
+/lim_interface/build/
+/staff_view/build/
+/staff_view/build/classes/java/main/
+/system_view/build/
